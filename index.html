@@ -5,6 +5,323 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.master{
+    width: 100%; 
+    background-image: url("slide01.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 13%;
+}
+
+ul{
+    list-style: none;
+}
+
+.master, .template{
+    float:left;
+    color:white;
+     
+}
+
+.master,span{
+    color: rgb(230, 216, 216);
+}
+
+.master a{
+    float:right;
+    margin-right: 40px;
+    text-decoration: none;
+    color:white;
+}
+.hielo{
+    width: 60%; 
+    margin: 0 auto;
+    margin-top: 20%;
+    text-align: center;
+    color:white;
+}
+
+.hielo p{
+    letter-spacing: 2px;
+}
+.hielo span{
+    color: rgb(230, 216, 216);
+}
+ 
+.hielo hr{
+    width:28%;
+    color: whitesmoke;
+}
+.hielo h1{
+    font-size: 60px;
+    font-weight: 200px;
+}
+ /*second big box starta*//*second big box starta*//*second big box starta*//*second big box starta*/
+
+      
+.secondbox{
+    width: 80%;
+    height: 650px; 
+    background-color: whitesmoke;
+    clear: both;
+    padding: 5% 10%;
+    
+}
+ 
+.left{
+    width: 47%;
+     padding-bottom: 5%;
+    background-color: white;
+    float: left;
+    text-align:center; 
+ 
+}
+
+.left img{
+    width:100%;
+}
+.left h5{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.left hr{
+    width:50%;
+}
+.left h3{
+    text-align: center;
+    font-weight: 150px;
+    letter-spacing: 1px;
+}
+
+ 
+
+#alig{
+    margin: 10PX 30px;
+    text-align:left;
+}
+
+.left button{
+    text-align:center;
+  padding: 10px 25px;
+    background: white;
+    border-color: whitesmoke;
+}
+/*right box*//*right box*//*right box*//*right box*//*right box*/
+.right img{
+    width:100%;
+}
+.right h5{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.right hr{
+    width:50%;
+}
+.right h3{
+    text-align: center;
+    font-weight: 150px;
+    letter-spacing: 1px;
+}
+
+.right{
+    width: 47%;
+    background-color: white;
+    float: right;
+    text-align: center;  
+    padding-bottom: 5%;
+}
+
+#deo{
+    margin: 10PX 30px;
+    text-align:left;
+}
+
+.right button{
+   
+  padding: 10px 25px;
+    background: white;
+    border-color: whitesmoke;
+
+}
+/*third- box starts*//*third- box *//*third- box *//*third- box */
+.thirdbox{
+    width: 100%; 
+    padding: 1% 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed; 
+     clear: both;
+}
+
+.thirdbox p{
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    padding-top: 3%;
+}
+.thirdbox hr{
+    width: 50%;
+}
+.thirdbox h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+    letter-spacing: 1px;
+    font-weight: 200px;
+    clear: both;
+}
+
+/* fourth big-box - starts*//* fourth big-box -starts*//* fourth big-box - starts*//* fourth big-box - starts*/
+
+.fourthbox{
+    width:80%; 
+    background-color:whitesmoke; 
+    padding-top: 1%; 
+    clear:both;
+    padding: 5% 10%;
+
+} 
+
+.fourthbox p{
+     text-align: center;
+     letter-spacing: 2px;
+     text-transform: uppercase; 
+ }
+
+ .fourthbox hr{
+     width:50%;
+}
+.fourthbox h3{
+    text-align: center;
+    padding-bottom: 2%;
+}
+ 
+.fourthbox img{
+     width:100%;
+     border:12px solid white;
+ }
+ .tleft{
+     width: 46%; 
+     float:left;
+ }
+ 
+ .tleft img{
+     width: 100%;
+ }
+ 
+ .tright img{
+     width:100%;
+ }
+
+ .tright{
+    width: 46%; 
+    float:right; 
+}
+.four{ 
+margin-top: 8%;
+}
+
+/*  footer - starts*//*  footer - starts*//*  footer - starts*/
+.footer{
+    width: 100%; 
+    background-color: black;
+    padding-top: 1%;
+
+}
+.footer p{
+    color:white;
+    text-align: center;
+    padding-top: 4%;
+}
+ .footer h4{
+     color:white;
+     text-align: center;
+    padding-bottom: 5%;
+
+ }
+
+
+
+ @media only screen and (max-width:800px){
+         .left{
+             width:100%;
+         }
+         .left, .h3, .h5, .p{
+             font-size: 30px;
+         }
+
+ }
+
+ @media only screen and (max-width:800px){
+     .right{
+        width:100%; 
+    }
+    .right, .h3, .h5, .p{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width:800px){
+     .left{
+        width:100%;
+    }
+    .left, .h2.p{
+        font-size: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width:800px){
+    .tleft{
+        width:100%;
+    }
+    .fourthbox, .h3, .p{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width:800px){
+     .tright{
+        width:100%;
+    }
+    
+}
+
+@media only screen and (max-width:800px){
+    .footer{
+        width:100%; 
+    }
+    .footer, .h3, .p{
+        font-size: 30px; 
+    }
+}
+    </style>
+
+
 </head>
 <body>
     <h1>last one github</h1>
